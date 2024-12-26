@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Compras</title>
+    <link rel="stylesheet" type="text/css" href="css/style.css">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" rel="stylesheet">
+</head>
+
+
+<body>
+    <h1 class="tittle"><i class="fa-solid fa-shop"></i> Tienda</h1>
+    <form class="container">
+        <h2>Productos</h2>
+        <select id="products" name="a"></select>
+        
+        <h2>Cantidad</h2>
+        <input type="number" id="count" value="1" min="1">
+        <button type="button" id="add-to-cart">Agregar al carrito</button>
+        <hr>
+        <div id="carrito">
+            <h2><i class="fa-solid fa-cart-shopping"></i> Tu Carrito </h2>
+            
+            <ul class="cart-list" id="cart-list"></ul>
+            <h3 id="total-buy">Aún no se ha agregado ningún producto.</h3>
+            <hr>
+            <button type="button" id="discount-add">Añadir descuento(40%)</button>
+            <button type="button" id="cart-clear">Limpiar carrito</button> 
+            <button type="button" id="discount-clear">Retirar descuento</button>
+            
+        </div>
+            <hr>
+        </div>
+    </form>
+
+    <script src="products.js"></script>
+</body>
+
+</html>
