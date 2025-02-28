@@ -20,16 +20,18 @@ body {
     padding-top: 5rem;
 }
 .container {
+
     display: flex;
     justify-content: center;
     align-items: center;
     flex-direction: column;
     border-radius: 10px 10px 10px 10px;
-    background-color: rgba(0, 0, 0, 0.712);
+    background-color: rgba(0, 0, 0, 1);
     padding: 20px;
     width: 50%;
     margin-left: 25%;
     color: #fff;
+    
 }
 
 .container button {
